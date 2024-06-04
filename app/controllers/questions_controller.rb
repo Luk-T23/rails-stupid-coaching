@@ -4,6 +4,11 @@ class QuestionsController < ApplicationController
   end
 
   def answer
-    p 'answer is active :)'
+    @question = params[:question]
+    if @question == 'hello'
+      @answer = 'Sup!'
+    elsif @question == 'what time is it?'
+      @answer = time.now
+    end
   end
 end
