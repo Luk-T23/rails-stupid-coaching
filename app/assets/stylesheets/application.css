@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+ .Author{
+  font-style: italic;
+  font-size: medium;
+  color: grey;
+ }
+
+ footer{
+  text-decoration: none;
+ }
